@@ -14,6 +14,7 @@ def sklm_to_scorer(func, transform:bool=False, **kwargs):
 
     return make_scorer(func, **kwargs)
 
+
 def R2Score(y_true=None, y_pred=None, sample_weight=None, multioutput:str='uniform_average', transform:bool=False, **kwargs):
 
     """
