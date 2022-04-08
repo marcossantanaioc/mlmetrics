@@ -30,9 +30,6 @@ preds = model.predict(Xtest)
 print(R2Score()(ytest, preds), MAEScore()(ytest, preds), MSEScore()(ytest, preds))
 ```
 
-    0.49586160914087074 104.85123707100779 16146.026634700776
-
-
 **Classification**
 
 ```python
@@ -50,6 +47,3 @@ preds = model.predict(Xtest)
 
 print(RecallScore()(ytest, preds), PrecisionScore()(ytest, preds), MatthewsCorrCoef()(ytest, preds))
 ```
-
-    0.85 1.0 0.8597269536210952
-
