@@ -12,6 +12,13 @@
 
 ## How to use
 
+```python
+from sklearn.model_selection import train_test_split
+from sklearn.datasets import make_multilabel_classification, make_classification, make_regression
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
+from mlmetrics.metrics import R2Score, MAEScore, MSEScore, RecallScore, PrecisionScore, MatthewsCorrCoef, FBetaScore
+```
+
 **Regression**
 
 ```python
