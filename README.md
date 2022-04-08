@@ -2,9 +2,13 @@
 > A collection of metrics suitable to validate machine learning models
 
 
-## Install
+## Install from source
 
-`pip install mlmetrics`
+1.  `git clone https://github.com/marcossantanaioc/mlmetrics.git`
+
+2.  `cd mlmetrics`
+
+3.  `pip install -e .`
 
 ## How to use
 
